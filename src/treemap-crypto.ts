@@ -145,7 +145,7 @@ export class TreemapCrypto extends LitElement {
                     this.showTooltip(event, d.data.top_3_coins);
                 }
             })
-            .on('mousemove', (event, d) => {
+            .on('mousemove', (event) => {
                 this.moveTooltip(event);
             })
             .on('mouseout', () => {
